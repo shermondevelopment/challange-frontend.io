@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Pacaembu;
+  src: url(../fonts/Pacaembu\ Medium.ttf);
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: Pacaembu;
+  src: url(../fonts/Pacaembu\ Bold.ttf);
+  font-weight: bold;
+}
+
+.button {
+  width: 100%;
+  max-width: max-content;
+  height: 45px;
+  border-radius: 23px;
+  border: none;
+  background: var(--color-white);
+  cursor: pointer;
+  padding: 13px 22px;
+  font-family: 'Pacaembu';
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+
+.button > .icon__button {
+  margin-right: 12px;
+}
+.newspaper {
+  margin-right: 15px;
+}
+

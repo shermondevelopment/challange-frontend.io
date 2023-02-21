@@ -9,6 +9,56 @@
   height: inherit;
 }
 
+.header__areamenu {
+  flex: 1;
+}
+
+.header__arealogo {
+  flex: 1;
+}
+
+.header__areasearch {
+  flex: 1;
+}
+
+.areamenu__menu {
+  flex: 1;
+}
+
+.areamenu_buttons {
+  flex: 1;
+}
+
 .areamenu__menu > .menu__icon {
   cursor: pointer;
+}
+
+.areasearch__input {
+  position: relative;
+  width: 100%;
+  max-width: 226px;
+  height: 45px;
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1);
+  border-radius: 23px;
+  background: var(--color-white);
+}
+
+.areasearch__input > .search__input {
+  width: 85%;
+  height:100%;
+  border: none;
+  padding: 15px 20px;
+  outline-color: transparent;
+  box-sizing: border-box;
+  outline-width: 0;
+  border-radius: 23px;
+}
+
+.icon__search {
+  position: absolute;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-pink);
+  border-radius: 50%;
 }

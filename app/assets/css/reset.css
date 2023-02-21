@@ -1,3 +1,9 @@
+:root {
+  --color-white: #ffffff;
+	--border-color: #D6D6D6;
+	--color-pink: #FF0A6B;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,9 +32,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-color: #FAFAFA;
-}
-* {
-  box-sizing: border-box;
 }
 ol, ul {
 	list-style: none;
