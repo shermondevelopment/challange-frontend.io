@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  height: 136px;
+}
+
+.header__container {
+  width: 100%;
+  max-width: 1200px;
+  height: inherit;
+}
+
+.areamenu__menu > .menu__icon {
+  cursor: pointer;
+}
