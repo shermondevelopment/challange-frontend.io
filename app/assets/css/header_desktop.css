@@ -126,9 +126,6 @@
     overflow-y: hidden;
   }
 
-  .header__navigation ul {
-    padding: 0px 24px;
-  }
   .header__navigation ul > li {
     margin-right: 29px;
   }
