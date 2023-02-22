@@ -75,7 +75,7 @@
   font-family: Pacaembu Regular;
   font-weight: 400;
   color: var(--color-link);
-  padding: 25px 0px;
+  padding: 18px 0px;
   transition: color, display 0.3s linear;
 }
 
@@ -93,6 +93,10 @@
   border-radius: 10px;
   transition: opacity 0.3s linear;
   background: var(--color-pink);
+}
+
+.active {
+  opacity: 1;
 }
 
 .header__navigation li a:hover .line__active {

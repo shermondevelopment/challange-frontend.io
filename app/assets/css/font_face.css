@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Pacaembu;
+  src: url(../fonts/Pacaembu\ Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Pacaembu;
+  src: url(../fonts/Pacaembu\ Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Pacaembu Regular;
+  src: url(../fonts/Pacaembu\ Regular.ttf);
+}
+
+@font-face {
+  font-family: Pacaembu;
+  src: url(../fonts/Pacaembu\ Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Pacaembu;
+  src: url(../fonts/Pacaembu\ Light.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: Pacaembu;
+  src: url(../fonts/Pacaembu\ Ultra.ttf);
+  font-weight: 900;
+}
