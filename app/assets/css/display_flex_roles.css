@@ -25,3 +25,7 @@
 .flex-direction-column {
   flex-direction: column;
 }
+
+.mobile--padding {
+  padding: 0px 24px;
+}
