@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15">
+  <g id="menu_aside" data-name="menu aside" transform="translate(-139 -44)">
+    <path id="Linha_8" data-name="Linha 8"
+      d="M17,1.5H0A1.5,1.5,0,0,1-1.5,0,1.5,1.5,0,0,1,0-1.5H17A1.5,1.5,0,0,1,18.5,0,1.5,1.5,0,0,1,17,1.5Z"
+      transform="translate(140.5 45.5)" fill="#231f20" />
+    <path id="Linha_9" data-name="Linha 9"
+      d="M13,1.5H0A1.5,1.5,0,0,1-1.5,0,1.5,1.5,0,0,1,0-1.5H13A1.5,1.5,0,0,1,14.5,0,1.5,1.5,0,0,1,13,1.5Z"
+      transform="translate(144.5 51.5)" fill="#231f20" />
+    <path id="Linha_10" data-name="Linha 10"
+      d="M8,1.5H0A1.5,1.5,0,0,1-1.5,0,1.5,1.5,0,0,1,0-1.5H8A1.5,1.5,0,0,1,9.5,0,1.5,1.5,0,0,1,8,1.5Z"
+      transform="translate(149.5 57.5)" fill="#231f20" />
+  </g>
+</svg>
