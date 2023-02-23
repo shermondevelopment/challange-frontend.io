@@ -19,6 +19,7 @@
 }
 
 .main__storys {
+  display: none;
   overflow-y: hidden;
 }
 
@@ -28,7 +29,6 @@
 
 .storys__box {
  margin-top: 24px;
- /* overflow-x: auto; */
 }
 .box__story {
   margin-right: 12px;
@@ -49,13 +49,6 @@
   font-weight: 400;
   font-size: 9px;
 }
-
-/* .storys__box {
-  width: 77px;
-  height: 77px;
-  margin-right: 12px;
-  overflow-y: scroll;
-} */
 
 .story {
   width: 60px;
@@ -175,6 +168,10 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .main__storys {
+    display: block;
+  }
+
   .main__news.mobile {
     display: block;
   }
