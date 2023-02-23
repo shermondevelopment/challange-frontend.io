@@ -18,6 +18,11 @@
   padding-left: 8px;
 }
 
+.announcement_image {
+  width: 305px;
+  height: 48px;
+}
+
 .main__storys {
   display: none;
   overflow-y: hidden;
