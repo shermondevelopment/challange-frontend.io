@@ -6,10 +6,77 @@
 
 .main__banner-banner {
   height: inherit;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 80%), url('../img/photo.jpg');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 80%), url('../img/banner-desktop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.main__announcement {
+  display: none;
+  margin-top: 24px;
+  padding-left: 8px;
+}
+
+.main__storys {
+  overflow-y: hidden;
+}
+
+.main__storys::-webkit-scrollbar {
+  display: none;
+}
+
+.storys__box {
+ margin-top: 24px;
+ /* overflow-x: auto; */
+}
+.box__story {
+  margin-right: 12px;
+}
+
+.story__content {
+  position: relative;
+  height: 77px;
+}
+
+.story__author {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  color: #5F5961;
+  font-family: Pacaembu;
+  font-weight: 400;
+  font-size: 9px;
+}
+
+/* .storys__box {
+  width: 77px;
+  height: 77px;
+  margin-right: 12px;
+  overflow-y: scroll;
+} */
+
+.story {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid var(--color-pink);
+}
+
+.story > img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  inset: 3px;
+  border-radius: 50px;
+}
+
+.story-image {
+  border-radius: 50%;
+}
+
 
 .container {
   width: 100%;
@@ -58,7 +125,7 @@
   content: '';
   position: absolute;
   left: 0px;
-  top: 3px;
+  top: 6px;
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -95,4 +162,65 @@
   margin-top: 15px;
   line-height: 20px;
   text-align: justify;
+}
+
+.main__news.mobile {
+  width: 100%;
+  border-bottom: 2px solid  #CECECE;
+  display:none;
+}
+
+.mobile--description {
+  color: #231F20;
+}
+
+@media only screen and (max-width: 500px) {
+  .main__news.mobile {
+    display: block;
+  }
+
+  .main__announcement {
+    display: block;
+  }
+
+  .main__banner {
+    margin-top: 24px;
+  }
+
+  .main__banner-banner {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 80%), url('../img/banner-mobile.jpg');
+  }
+
+  .main__news.mobile .banner__title_third {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .main__news.mobile .banner__title_third .block__news {
+    margin-top: 15px;
+  }
+
+  .main__news.mobile .banner__title_third .mobile--description {
+    color: #231F20;
+  }
+
+
+  .main__banner{
+    height: 360px;
+    background-position: center;
+  }
+  .container{
+    padding: 0px 24px;
+  }
+  .banner__title_third {
+    display: none;
+  }
+  .block__news_description {
+    color: #231F20;
+  }
+  .title_second {
+    font-size: 24px;
+    margin-top: 8px;
+  }
 }
