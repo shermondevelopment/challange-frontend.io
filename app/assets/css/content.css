@@ -187,6 +187,10 @@
     margin-top: 24px;
   }
 
+  .title_second {
+    line-height: 35px;
+  }
+
   .main__banner-banner {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 80%), url('../img/banner-mobile.jpg');
   }
